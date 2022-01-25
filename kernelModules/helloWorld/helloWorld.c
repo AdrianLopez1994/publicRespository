@@ -2,13 +2,13 @@
 #include <linux/module.h>
 #include <linux/kernel.h>
 
-static int hello_init(void) {
-    printk(KERN_ALERT "Hello init method is called");
+static int __init hello_init(void) {
+    printk(KERN_INFO "Hello init method is called\n");
     return 0;
 }
 
-static void hello_exit(void) {
-    printk(KERN_ALERT "Exit function is called");
+static void __exit hello_exit(void) {
+    printk(KERN_INFO "Exit function is called\n");
 }
 
 module_init(hello_init);
