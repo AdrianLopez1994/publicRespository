@@ -1,0 +1,1 @@
+cmd_/home/adrian/repos/publicRepo/publicRespository/kernelModules/helloWorld/Module.symvers := sed 's/\.ko$$/\.o/' /home/adrian/repos/publicRepo/publicRespository/kernelModules/helloWorld/modules.order | scripts/mod/modpost -m -a  -o /home/adrian/repos/publicRepo/publicRespository/kernelModules/helloWorld/Module.symvers -e -i Module.symvers   -T -
