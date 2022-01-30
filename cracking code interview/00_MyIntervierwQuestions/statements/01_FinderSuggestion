@@ -1,0 +1,9 @@
+Imagine your team have to implement a finder and your task is to implements the searches suggestions.
+Basically, the problem is, getting an input string (it can be a complete or a partial word), you have to find and retrieve any posibble word to show as a suggestion to user.
+
+The input will be an string.
+The output will be an array with the suggestions.
+
+How would you implement it?
+
+
